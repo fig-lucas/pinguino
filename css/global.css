@@ -13,5 +13,73 @@
 }
 
 section .container{
-    max-width: 1700px;
+    max-width: 1500px;
+}
+
+/*HEADER*/
+header img{
+    width: 80px;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(128, 128, 128);
+    height: 80px;
+   
+}
+
+header .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+header .titulo-site{
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+header li{
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+header .titulo-site span{
+    display: none;
+}
+
+header li:hover{
+    color: rgb(246, 246, 246);
+    text-shadow: 0 0 5px black;
+    scale: 1.08;
+}
+
+
+header .titulo-site:hover{
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    scale: 1.05;
+   
+
 }
