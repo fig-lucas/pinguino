@@ -1,0 +1,128 @@
+/* TAMANHO DA PAGINA */
+body{
+    width: 100%;
+    min-height: 100dvh;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+header img{
+    width: 80px;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(128, 128, 128);
+    height: 80px;
+   
+}
+
+header .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+header .titulo-site{
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+header li{
+    display: flex;
+    gap: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+header .titulo-site span{
+    display: none;
+}
+
+/* SECTION INICIO */
+
+#inicio{
+    scroll-margin-top: 80px;
+}
+
+section#inicio{
+    margin-bottom: 3rem;
+}
+
+section#inicio .inicio{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Josefin Sans";
+}
+
+section .inicio img{
+    height: 90vh;
+    width: 800px;
+}
+
+section .texto-inicio{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+section .texto-inicio h1{
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    font-size: 60px;
+    width: 800px;
+}
+
+
+section .texto-inicio p{
+    word-spacing: 5px;
+    width: 700px;
+    font-size: 22px;
+
+}
+
+/* SECTION PRODUTOS */
+
+section#produtos img{
+    width: 300px;
+    height: 100vh;
+}
+
+/* EFEITOS */
+header li:hover{
+    color: rgb(246, 246, 246);
+    text-shadow: 0 0 5px black;
+    scale: 1.08;
+}
+
+
+header .titulo-site:hover{
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    scale: 1.05;
+   
+
+}
+
+
+
